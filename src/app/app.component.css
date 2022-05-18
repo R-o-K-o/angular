@@ -1,0 +1,17 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.title {
+  color: #a19f61;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 20px 0 40px;
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
