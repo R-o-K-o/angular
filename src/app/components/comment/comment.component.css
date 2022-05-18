@@ -1,0 +1,10 @@
+.comment_title {
+  color: #2d2d2d;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.comment_title:first-letter {
+  text-transform: uppercase;
+}

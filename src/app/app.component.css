@@ -1,0 +1,34 @@
+.container {
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 30px auto;
+  padding: 15px 30px 50px;
+  border-radius: 5px;
+  background: whitesmoke;
+}
+
+
+.title {
+  font-family: 'Bebas Neue', cursive;
+  color: teal;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: .1rem;
+  margin-bottom: 25px;
+}
+
+.users {
+  width: 23%;
+}
+
+.users_cards, .posts_cards, .comments_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.posts, .comments {
+  width: 37%;
+}
