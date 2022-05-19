@@ -1,0 +1,6 @@
+- url https://jsonplaceholder.typicode.com/
+- routing, navigation
+- component users => user => users details
+- component posts => post => post details
+- component comments => comment => comment details
+- css
