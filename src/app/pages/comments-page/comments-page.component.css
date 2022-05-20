@@ -1,4 +1,4 @@
-.posts_page {
+.comments_page {
   width: 80vw;
 }
 
@@ -13,7 +13,7 @@
   margin-bottom: 30px;
 }
 
-.posts_cards {
+.comments_cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

@@ -1,1 +1,27 @@
-<p>user-details works!</p>
+<div *ngIf="user" class="user_card">
+  <h2 class="user_name">{{user.name}}</h2>
+  <div class="user_data">
+    <div class="contact_data">
+      <h3 class="subtitle">contact data</h3>
+      <div class="info">
+        <ul class="hint">
+          <li>id:</li>
+          <li>username:</li>
+          <li>phone:</li>
+          <li>email:</li>
+          <li>website:</li>
+        </ul>
+        <ul class="data">
+          <li>{{user.id}}</li>
+          <li>{{user.username}}</li>
+          <li>{{user.phone}}</li>
+          <li>{{user.email}}</li>
+          <li>{{user.website}}</li>
+        </ul>
+      </div>
+    </div>
+    <app-address [address]="user.address" class="address_data"></app-address>
+    <app-geo [geo]="user.address.geo" class="geo_data"></app-geo>
+    <app-company [company]="user.company" class="company_data"></app-company>
+  </div>
+</div>

@@ -1,4 +1,4 @@
-.users_page {
+.details_page {
   width: 70vw;
 }
 
@@ -10,12 +10,16 @@
   text-transform: capitalize;
   letter-spacing: .1rem;
   word-spacing: 0.3rem;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
 }
 
-.users-cards {
+.user_details {
+  max-width: 800px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 20px;
+  color: whitesmoke;
+  margin: 0 auto;
+  padding: 10px 25px 45px;
+  border: 4px solid teal;
+  border-radius: 5px;
 }

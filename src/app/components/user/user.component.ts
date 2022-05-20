@@ -1,15 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {Router} from "@angular/router";
+
+import {IUser} from "../../interfaces";
 
 @Component({
   selector: 'app-user',
   templateUrl: './user.component.html',
   styleUrls: ['./user.component.css']
 })
+
 export class UserComponent implements OnInit {
+  @Input()
+  user: IUser;
 
-  constructor() { }
+  constructor(private router: Router) { }
 
-  ngOnInit(): void {
+  ngOnInit(): void { }
+
+  getDetails(): void {
+    this.router.navigate([`user/${this.user.id}`], {state: {user: this.user}});
   }
-
 }

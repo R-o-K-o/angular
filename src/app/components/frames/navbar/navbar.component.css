@@ -1,0 +1,10 @@
+a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #c3c3c3;
+  text-transform: uppercase;
+}
+
+.active a {
+  color: #f12e2e;
+}

@@ -8,6 +8,7 @@ import {urls} from "../constants";
 @Injectable({
   providedIn: 'root'
 })
+
 export class CommentService {
   constructor(private httpClient: HttpClient) { }
 

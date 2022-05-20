@@ -8,6 +8,7 @@ import {urls} from "../constants";
 @Injectable({
   providedIn: 'root'
 })
+
 export class PostService {
   constructor(private httpClient: HttpClient) { }
 
