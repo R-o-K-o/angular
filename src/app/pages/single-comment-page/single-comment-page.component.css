@@ -1,0 +1,25 @@
+.details_page {
+  width: 70vw;
+}
+
+.title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: #b7b769;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: .1rem;
+  word-spacing: 0.3rem;
+  margin-bottom: 60px;
+}
+
+.comment_details{
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  margin: 0 auto;
+  padding: 10px 25px 45px;
+  border: 4px solid teal;
+  border-radius: 5px;
+}

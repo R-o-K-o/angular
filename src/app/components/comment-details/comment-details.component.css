@@ -1,0 +1,45 @@
+.comment_card {}
+
+.comment_title {
+  font-size: 31px;
+  color: #c2c2c2;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+}
+
+.comment_title:first-letter {
+  text-transform: uppercase;
+}
+
+.comment_data {}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #7e7e7e;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-bottom: 8px;
+}
+
+.hint {
+  width: 30%;
+}
+
+.data {
+  width: 55%;
+}
+
+.hint, .data {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ccc;
+  line-height: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

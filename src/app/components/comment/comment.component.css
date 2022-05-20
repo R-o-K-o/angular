@@ -1,0 +1,23 @@
+.comment_card {
+  width: 390px;
+  padding: 15px;
+  border: 4px solid teal;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comment_card:hover {
+  border-color: #ca563f;;
+}
+
+.comment_title {
+  font-size: 23px;
+  color: #c2c2c2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.comment_title:first-letter {
+  text-transform: uppercase;
+}
