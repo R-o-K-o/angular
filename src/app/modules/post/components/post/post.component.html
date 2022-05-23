@@ -1,0 +1,7 @@
+<div class="post_card">
+  <h2 class="post_name">{{post.title}}</h2>
+  <div class="links">
+    <a [routerLink]="['post_details', post.id]" [state]="post">details</a>
+    <a [routerLink]="['post_comments', post.id]">comments</a>
+  </div>
+</div>

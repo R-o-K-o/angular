@@ -1,0 +1,36 @@
+.address_data, .info {
+  padding-left: 15px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #7e7e7e;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-bottom: 8px;
+}
+
+.hint {
+  width: 30%;
+}
+
+.data {
+  width: 55%;
+}
+
+.hint, .data {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ccc;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

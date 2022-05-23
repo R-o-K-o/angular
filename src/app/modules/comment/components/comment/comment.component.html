@@ -1,0 +1,6 @@
+<div class="comment_card">
+  <h2 class="comment_name">{{comment.name}}</h2>
+  <div class="links">
+    <a [routerLink]="['comment_details', comment.id]" [state]="comment">details</a>
+  </div>
+</div>

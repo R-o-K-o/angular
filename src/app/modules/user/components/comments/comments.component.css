@@ -1,0 +1,19 @@
+.post_comments {}
+
+.title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: #b7b769;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: .1rem;
+  word-spacing: 0.3rem;
+  margin-bottom: 35px;
+}
+
+.comments_cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}

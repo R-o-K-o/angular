@@ -1,0 +1,23 @@
+<div class="comment_details">
+  <h1 class="title">comment details</h1>
+  <div *ngIf="comment" class="comment_card">
+    <h2 class="comment_name">{{comment.name}}.</h2>
+    <div class="comment_data">
+      <h3 class="subtitle">comment data</h3>
+      <div class="info">
+        <ul class="hint">
+          <li>id:</li>
+          <li>post id:</li>
+          <li>email:</li>
+          <li>body</li>
+        </ul>
+        <ul class="data">
+          <li>{{comment.id}}</li>
+          <li>{{comment.postId}}</li>
+          <li>{{comment.email}}</li>
+          <li>{{comment.body}}</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
