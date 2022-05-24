@@ -1,0 +1,71 @@
+.user_details {}
+
+.title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: #b7b769;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: .1rem;
+  word-spacing: 0.3rem;
+  margin-bottom: 35px;
+}
+
+.user_card {
+  max-width: 800px;
+  color: whitesmoke;
+  margin: 0 auto;
+  padding: 10px 25px 60px;
+  border: 4px solid teal;
+  border-radius: 5px;
+}
+
+.user_name {
+  font-size: 26px;
+  color: #c0c0c0;
+  letter-spacing: 1px;
+  margin-bottom: 35px;
+}
+
+.user_data {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+}
+
+.contact_data, .info {
+  padding-left: 15px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #7e7e7e;
+  text-transform: uppercase;
+  letter-spacing: .1rem;
+  margin-bottom: 8px;
+}
+
+.hint {
+  width: 30%;
+}
+
+.data {
+  width: 55%;
+}
+
+.hint, .data {
+  display: flex;
+  flex-direction: column;
+  row-gap: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ccc;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}

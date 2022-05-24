@@ -1,0 +1,7 @@
+<div class="user_card">
+  <h2 class="user_name">{{user.name}}</h2>
+  <div class="links">
+    <a [routerLink]="['user_details', user.id]" [state]="user">details</a>
+<!--    <a [routerLink]="['user_posts', user.id]">posts</a>-->
+  </div>
+</div>
