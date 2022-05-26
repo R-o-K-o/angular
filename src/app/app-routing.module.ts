@@ -9,6 +9,7 @@ const routes: Routes = [
     path: '', component: MainLayoutComponent, children: [
       {path: '', redirectTo: 'users', pathMatch: 'full'},
       {path: 'users', loadChildren: () => import('./modules').then(module => module.UserModule)},
+      {path: 'posts', loadChildren: () => import('./modules').then(module => module.PostModule)},
     ],
   }
 ];

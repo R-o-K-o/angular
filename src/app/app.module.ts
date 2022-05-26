@@ -8,6 +8,7 @@ import {HeaderComponent} from './components/frames/header/header.component';
 import {NavbarComponent} from './components/frames/navbar/navbar.component';
 import {MainComponent} from './components/frames/main/main.component';
 import {FooterComponent} from './components/frames/footer/footer.component';
+import { LoaderComponent } from './components/UI/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import {FooterComponent} from './components/frames/footer/footer.component';
     NavbarComponent,
     MainComponent,
     FooterComponent,
+    LoaderComponent,
   ],
   imports: [
     BrowserModule,

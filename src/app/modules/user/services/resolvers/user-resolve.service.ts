@@ -10,8 +10,7 @@ import {IUser} from "../../interfaces";
 })
 
 export class UserResolveService implements Resolve<IUser>{
-  constructor(private userService: UserService) {
-  }
+  constructor(private userService: UserService) { }
 
   resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<IUser> | Promise<IUser> | IUser {
     const {id} = route.params;
